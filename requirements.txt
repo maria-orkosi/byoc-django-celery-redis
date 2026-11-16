@@ -1,0 +1,7 @@
+# Sample 4 of the bring-your-code test matrix: Django + Celery + Redis on Postgres.
+Django==5.1.3
+gunicorn==23.0.0
+celery[redis]==5.4.0
+redis==5.2.0
+psycopg[binary]==3.2.3
+dj-database-url==2.3.0
